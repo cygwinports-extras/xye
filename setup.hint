@@ -1,0 +1,8 @@
+category: Games
+requires: libgcc1 libSDL1.2_0 libSDL_image1.2_0 libSDL_ttf2.0_0 libstdc++6
+sdesc: "Puzzle game based on Kye"
+ldesc: "Xye is a puzzle game in which the objective is to help a 
+character that looks like a green circle to get all the gems in the 
+room. This is, of course, not as easy as it sounds, Xye must solve all 
+sorts of puzzles while at the same time avoiding all sorts of traps and 
+beasts."

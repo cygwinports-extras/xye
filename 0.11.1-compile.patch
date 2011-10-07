@@ -1,0 +1,13 @@
+src/gen.cpp: In function ‘void Randomize()’:
+src/gen.cpp:29:34: error: ‘time’ was not declared in this scope
+
+--- origsrc/xye-0.11.1/src/gen.cpp	2011-09-27 16:42:06.000000000 -0500
++++ src/xye-0.11.1/src/gen.cpp	2011-10-06 23:16:47.877950400 -0500
+@@ -19,6 +19,7 @@ Permission is granted to anyone to use t
+ #include "gen.h"
+ #include "vxsdl.h"
+ #include<cstdio>
++#include<ctime>
+ #include<iostream>
+ #include<fstream>
+ 
