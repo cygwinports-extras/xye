@@ -1,5 +1,5 @@
 NAME="xye"
-VERSION=0.12.1
+VERSION=0.12.2
 RELEASE=1
 CATEGORY="Games"
 SUMMARY="Puzzle game based on Kye"
@@ -9,12 +9,12 @@ This is, of course, not as easy as it sounds, Xye must solve all sorts of
 puzzles while at the same time avoiding all sorts of traps and beasts."
 HOMEPAGE="http://xye.sourceforge.net/"
 SRC_URI="mirror://sourceforge/xye/xye-${VERSION}.tar.gz"
-PATCH_URI="0.12.1-compile.patch"
+#PATCH_URI="0.12.1-compile.patch"
 
 src_install() {
 	cd ${B}
 	cyginstall
-	doicon ${S}/xye.svg
-	make_desktop_entry xye "Xye" xye "Game;LogicGame"
+#	doicon ${S}/pixmaps/xye.svg
+#	make_desktop_entry xye "Xye" xye "Game;LogicGame"
 }
 DOCS="GAMEINTRO.txt"
